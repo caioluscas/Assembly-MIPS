@@ -8,11 +8,11 @@ msg4: .asciiz "\nDiga sua largura do fundo da piscina: "
 msg5: .asciiz "\nInforme a altura do ladrilho utilizado: "
 msg6: .asciiz "\nInforme a largura do ladrilho utilizado: "
 
-msg7: .asciiz "\n Àrea do lado 1:"
-msg8: .asciiz "\n Àrea do lado 2:"
-msg9: .asciiz "\n Àrea do lado 3:"
-msg10: .asciiz "\n Àrea do lado 4:"
-msg11: .asciiz "\n Àrea do lado 5:"
+msg7: .asciiz "\n Ã€rea do lado 1:"
+msg8: .asciiz "\n Ã€rea do lado 2:"
+msg9: .asciiz "\n Ã€rea do lado 3:"
+msg10: .asciiz "\n Ã€rea do lado 4:"
+msg11: .asciiz "\n Ã€rea do lado 5:"
 num1:.float 1.0
 num2:.float 5.0
 .text
