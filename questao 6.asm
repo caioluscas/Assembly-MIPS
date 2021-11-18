@@ -1,7 +1,7 @@
 .data
 
 msg1: .asciiz "\nDiga o valor da venda: "
-msg2: .asciiz "\nvalor do salario junto com comiss„o: R$ "
+msg2: .asciiz "\nvalor do salario junto com comiss√£o: R$ "
 num1:.float 1500.0
 num2:.float 0.10
 num3:.float 0.30
