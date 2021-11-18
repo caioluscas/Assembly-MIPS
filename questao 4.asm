@@ -51,7 +51,7 @@ se2:
 	mul.s $f7,$f1,$f6
 	l.s $f8, num7 #142.80
 	sub.s $f9,$f7,$f8 #valor do imposto
-	#Mostrar valor da parcela ao usuário....
+	#Mostrar valor da parcela ao usuÃ¡rio....
 	li $v0, 4
 	la $a0, msg3
 	syscall
@@ -60,7 +60,7 @@ se2:
 	mov.s $f12, $f7
 	syscall
 	
-	#Mostrar valor do imposto ao usuário....
+	#Mostrar valor do imposto ao usuÃ¡rio....
 	li $v0, 4
 	la $a0, msg4
 	syscall
@@ -80,7 +80,7 @@ se3:
 	l.s $f14, num9 #354.80
 	sub.s $f15,$f13,$f14 #valor do imposto
 	
-	#Mostrar valor da parcela ao usuário....
+	#Mostrar valor da parcela ao usuÃ¡rio....
 	li $v0, 4
 	la $a0, msg3
 	syscall
@@ -89,7 +89,7 @@ se3:
 	mov.s $f12, $f13
 	syscall
 	
-	#Mostrar valor do imposto ao usuário....
+	#Mostrar valor do imposto ao usuÃ¡rio....
 	li $v0, 4
 	la $a0, msg4
 	syscall
@@ -109,7 +109,7 @@ se4:
 	l.s $f19, num11 #636.13
 	sub.s $f20,$f18,$f19 #valor do imposto
 	
-	#Mostrar valor da parcela ao usuário....
+	#Mostrar valor da parcela ao usuÃ¡rio....
 	li $v0, 4
 	la $a0, msg3
 	syscall
@@ -118,7 +118,7 @@ se4:
 	mov.s $f12, $f18
 	syscall
 	
-	#Mostrar valor do imposto ao usuário....
+	#Mostrar valor do imposto ao usuÃ¡rio....
 	li $v0, 4
 	la $a0, msg4
 	syscall
@@ -133,7 +133,7 @@ senao4:
 	l.s $f23, num13 #869.36
 	sub.s $f24,$f22,$f23 #valor do imposto
 	
-	#Mostrar valor da parcela ao usuário....
+	#Mostrar valor da parcela ao usuÃ¡rio....
 	li $v0, 4
 	la $a0, msg3
 	syscall
@@ -142,7 +142,7 @@ senao4:
 	mov.s $f12, $f22
 	syscall
 	
-	#Mostrar valor do imposto ao usuário....
+	#Mostrar valor do imposto ao usuÃ¡rio....
 	li $v0, 4
 	la $a0, msg4
 	syscall
