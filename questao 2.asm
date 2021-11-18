@@ -1,7 +1,7 @@
 .data
 msg1: .asciiz "\nDiga seu o valor de seu salario:: "
-msg2: .asciiz "\nO valor a ser descontado È de R$ "
-msg3: .asciiz "\nvalor do sal·rio apÛs a aplicaÁ„o do desconto R$"
+msg2: .asciiz "\nO valor a ser descontado √© de R$ "
+msg3: .asciiz "\nvalor do sal√°rio ap√≥s a aplica√ß√£o do desconto R$"
 num1:.float 1045.0
 num2:.float 2089.60
 num3:.float 3134.40
@@ -33,7 +33,7 @@ main:
 	bc1f senao
 	
 se:	#<1045
-#Mostrar valor do desconto ao usu·rio....
+#Mostrar valor do desconto ao usu√°rio....
 	li $v0, 4
 	la $a0, msg2
 	syscall
@@ -62,7 +62,7 @@ se2:
 	mul.s $f4,$f1,$f7 #desconto
 	sub.s $f5,$f1,$f4 #nov sal
 	
-	#Mostrar valor do desconto ao usu·rio....
+	#Mostrar valor do desconto ao usu√°rio....
 	li $v0, 4
 	la $a0, msg2
 	syscall
@@ -91,7 +91,7 @@ se3:
 	mul.s $f4,$f1,$f9 #desconto
 	sub.s $f5,$f1,$f4 #nov sal
 	
-#Mostrar valor do desconto ao usu·rio....
+#Mostrar valor do desconto ao usu√°rio....
 	li $v0, 4
 	la $a0, msg2
 	syscall
@@ -115,7 +115,7 @@ senao3:
 	mul.s $f4,$f1,$f10 #desconto
 	sub.s $f5,$f1,$f4 #nov sal
 	
-	#Mostrar valor do desconto ao usu·rio....
+	#Mostrar valor do desconto ao usu√°rio....
 	li $v0, 4
 	la $a0, msg2
 	syscall
